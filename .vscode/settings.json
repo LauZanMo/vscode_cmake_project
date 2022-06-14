@@ -54,5 +54,10 @@
     "doxdocgen.generic.splitCasingSmartText": true,
     "doxdocgen.generic.filteredKeywords": [],
     "doxdocgen.generic.useGitUserName": false,
-    "doxdocgen.generic.useGitUserEmail": false
+    "doxdocgen.generic.useGitUserEmail": false,
+    "testMate.cpp.test.advancedExecutables": [
+        {
+            "pattern": "{bin}/*{test,Test,TEST}*"
+        }
+    ]
 }

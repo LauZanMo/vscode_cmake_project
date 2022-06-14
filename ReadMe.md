@@ -7,6 +7,7 @@
 ## 依赖插件
 
 - ms-vscode.cpptools-extension-pack插件
+- matepek.vscode-catch2-test-adapter插件(gtest可选)
 
 ## 使用
 
@@ -21,3 +22,5 @@
   - doxdocgen.generic.authorName
 
   以实现自定义的注释生成(在代码中输入 ‘/**’ + 回车 可触发)
+  
+- 安装[gtest库](https://github.com/google/googletest)(安装ROS会自带，源码编译安装建议换个路径)后可在C++ test mate插件中进行代码测试
